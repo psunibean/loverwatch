@@ -161,19 +161,19 @@ const quizData = [
 
     if (percentage === 100) {
         message = "Ultimate cat toucher";
-        endingSound = new Audio("https://github.com/psunibean/psunibean.github.io/raw/refs/heads/main/Catto.mp3");
+        endingSound = new Audio("https://github.com/psunibean/psunibean.github.io/raw/refs/heads/main/sfx/Catto.mp3");
 
     } else if (percentage >= 75) {
         message = "OMG, CARRY ME PLEASE? :O";
-        endingSound = new Audio("https://github.com/psunibean/psunibean.github.io/raw/refs/heads/main/Victory.mp3");
+        endingSound = new Audio("https://github.com/psunibean/psunibean.github.io/raw/refs/heads/main/sfx/Victory.mp3");
         
     } else if (percentage >= 50) {
         message = "I guess you're an average Overwatch player";
-        endingSound = new Audio("https://github.com/psunibean/psunibean.github.io/raw/refs/heads/main/LW-hello.mp3");
+        endingSound = new Audio("https://github.com/psunibean/psunibean.github.io/raw/refs/heads/main/sfx/LW-hello.mp3");
 
     } else if (percentage >= 20) {
         message = "You kinda suck...";
-        endingSound = new Audio("https://github.com/psunibean/psunibean.github.io/raw/refs/heads/main/Genji-1.mp3");
+        endingSound = new Audio("https://github.com/psunibean/psunibean.github.io/raw/refs/heads/main/sfx/Genji-1.mp3");
 
 	} else {
 		window.location.href = "ending.html"; // Redirect to another HTML file if score is low
@@ -201,7 +201,7 @@ const quizData = [
       <h5>Your score: ${score}/${quizData.length}</h5>
       <h6>${message}</h6>
 	  
-	  <audio id="player" src="https://github.com/psunibean/psunibean.github.io/raw/refs/heads/main/Mercy-1.mp3">
+	  <audio id="player" src="https://github.com/psunibean/psunibean.github.io/raw/refs/heads/main/sfx/Mercy-1.mp3">
 	  </audio>
 	  
 	  <br>
