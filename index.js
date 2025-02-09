@@ -161,19 +161,19 @@ const quizData = [
 
     if (percentage === 100) {
         message = "Ultimate cat toucher";
-        endingSound = new Audio("https://github.com/psunibean/psunibean.github.io/raw/refs/heads/main/Mercy-1.mp3");
+        endingSound = new Audio("https://github.com/psunibean/psunibean.github.io/raw/refs/heads/main/Catto.mp3");
 
     } else if (percentage >= 75) {
-        message = "Oooh, You're almost as good as Kevlar!";
-        endingSound = new Audio("https://github.com/psunibean/psunibean.github.io/raw/refs/heads/main/Mercy-1.mp3");
+        message = "OMG, CARRY ME PLEASE? :O";
+        endingSound = new Audio("https://github.com/psunibean/psunibean.github.io/raw/refs/heads/main/Victory.mp3");
         
     } else if (percentage >= 50) {
         message = "I guess you're an average Overwatch player";
-        endingSound = new Audio("https://github.com/psunibean/psunibean.github.io/raw/refs/heads/main/Mercy-1.mp3");
+        endingSound = new Audio("https://github.com/psunibean/psunibean.github.io/raw/refs/heads/main/LW-hello.mp3");
 
     } else if (percentage >= 20) {
         message = "You kinda suck...";
-        endingSound = new Audio("https://github.com/psunibean/psunibean.github.io/raw/refs/heads/main/Mercy-1.mp3");
+        endingSound = new Audio("https://github.com/psunibean/psunibean.github.io/raw/refs/heads/main/Genji-1.mp3");
 
 	} else {
 		window.location.href = "ending.html"; // Redirect to another HTML file if score is low
