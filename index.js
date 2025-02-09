@@ -1,7 +1,7 @@
 const quizData = [
     {
       question: "What day is Valentines?",
-      options: ["14 Feb", "Today 0_0", "21 May", "30 November"],
+      options: ["14 Feb", "Today 0_0", "21 June", "30 November"],
       answer: ["14 Feb", "Today 0_0"]
     },
     {
@@ -12,14 +12,14 @@ const quizData = [
 	
     {
       question: "What is the cooldown of Mercy's Resurrect?",
-      options: ["120 secs", "30 secs", "1secs  (hehe)"],
+      options: ["120 secs", "30 secs", "1secs  (hehe)", "27 secs"],
       answer: ["30 secs"]
     },
 
     {
       question: "Why are you running?",
-      options: ["Jet Boosters", "Halo Gliders", "Wings", "Super Jump"],
-      answer: ["Wings", "Super Jump"]
+      options: ["Jet Boosters", "Halo Gliders", "Guardian Angel", "Super Jump"],
+      answer: ["Guardian Angel"]
     },
 
     {
@@ -30,19 +30,19 @@ const quizData = [
 
     {
       question: "What level were you in Overwatch 1?",
-      options: ["2000", "669", "469"],
+      options: ["2000", "331", "469", "669"],
       answer: ["469"]
     },
 
     {
       question: "What is my main in Overwatch 2?",
-      options: ["Hammond", "Soldier: 76", "Juno"],
+      options: ["Hammond", "Soldier: 76", "Reinhardt", "Juno"],
       answer: ["Soldier: 76"]
     },
 
     {
       question: "Who is your most played Overwatch 2 hero?",
-      options: ["Lifeweaver", "Mercy", "Winton"],
+      options: ["Lifeweaver", "Ana",  "Mercy", "Winton"],
       answer: ["Lifeweaver"]
     },
 
@@ -54,13 +54,13 @@ const quizData = [
 	
     {
       question: "Are you wanna be my pocket Mercy?",
-      options: ["Yes", "Probably"],
-      answer: ["Probably"]
+      options: ["Yes", "Probably", "Maybe", "No"],
+      answer: ["Yes"]
     },
 	
 	 {
-      question: "Do you wanna duo sometime? :3",
-      options: ["No", "No", "No", "Yes"],
+      question: "Let's duo sometime! :3",
+      options: ["No", "Yes", "No", "Yes"],
       answer: ["No"]
     }
     // Add more questions here...
@@ -139,7 +139,7 @@ const clickSound = new Audio("https://quicksounds.com/uploads/tracks/1222744850_
         } else {
             showResult();
         }
-    }, 500); // delay before the next question or result
+    }, 800); // delay before the next question or result
 }
   
  function showResult() {

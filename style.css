@@ -135,7 +135,7 @@ h4 {
 
 /*Clickable Button*/
 click-me {
- width: 200px;
+ width: 300px;
  height: 100px;
  border-width: 5px;
  border-radius: 10px;
@@ -172,7 +172,17 @@ click-me {
  .credits {
  color: white;
  font-family: "Chewy", serif;
+
+  margin: 0 auto;
+
  }
+
+ .credits2 {
+  color: white;
+  font-family: "Kalam", serif;
+
+  margin: 0 auto;
+  }
 
 
 /*Qustions*/
@@ -222,7 +232,7 @@ grid-template-columns: repeat(2, 1fr);
 
   cursor: pointer;
   
-   width: 225px;
+   width: 250px;
  height: 100px;
  border-width: 5px;
  border-radius: 10px;
