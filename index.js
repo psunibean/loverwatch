@@ -1,3 +1,14 @@
+
+if (!localStorage.getItem("visited")) {
+  localStorage.setItem("visited", "true"); // Set a flag in local storage
+  window.location.href = "index.html"; // Redirect to index.html
+}
+
+      // JavaScript to trigger the redirect
+      function redirectToYouTube() {
+        window.location.href = "https://www.youtube.com/watch?v=bzLaL0SVwwI"; // Replace with your YouTube link
+    }
+
 const quizData = [
     {
       question: "What day is Valentines?",
@@ -53,13 +64,13 @@ const quizData = [
     },
 	
     {
-      question: "Are you wanna be my pocket Mercy?",
+      question: "Are you gonna be my pocket Mercy?",
       options: ["Yes", "Probably", "Maybe", "No"],
       answer: ["Yes"]
     },
 	
 	 {
-      question: "Let's duo sometime! :3",
+      question: "Let's duo sometime? :3",
       options: ["No", "Yes", "No", "Yes"],
       answer: ["No"]
     }
@@ -154,6 +165,7 @@ const quizData = [
         message = "I guess you're an average Overwatch player";
     } else if (percentage >= 20) {
         message = "You kinda suck...";
+        sound = new Audio("https://github.com/psunibean/psunibean.github.io/raw/refs/heads/main/Ramattra-1.mp3");
 	} else {
 		window.location.href = "ending.html"; // Redirect to another HTML file if score is low
         return;

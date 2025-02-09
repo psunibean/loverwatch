@@ -1,3 +1,20 @@
+
+      /* Make the button fully transparent */
+      #hiddenButton {
+        display: block;
+        background: transparent;
+
+        color: transparent;
+        
+        position: absolute;
+        width: 200px; /* Set button size */
+        height: 200px;
+        cursor: pointer;
+        top: 50%;
+        left: 50%;
+        transform: translate(290%, -90%);
+        z-index: 10; /* Ensure it's clickable */
+    }
 body {
   background-image: url("https://bnetcmsus-a.akamaihd.net/cms/blog_header/q1/Q1SQORBIZAAA1675992280286.png");
   background-repeat: no-repeat;
@@ -26,6 +43,7 @@ h1 {
  font-style: normal;
  font-size: 170px;
  
+ text-align: center;
  display: inline;
  padding-top: 5px;
  padding-left: 90px;
