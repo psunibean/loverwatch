@@ -250,8 +250,7 @@ grid-template-columns: repeat(2, 1fr);
  font-style: normal;
  font-size: 30px;
  
- text-align: center;
- display: inline-block;
+ margin: 0 auto;
 }
 
 button:hover {

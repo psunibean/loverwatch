@@ -76,7 +76,7 @@ const quizData = [
   
   
   // Add audio for button click sound
-const clickSound = new Audio("https://github.com/psunibean/psunibean.github.io/raw/refs/heads/main/Elim-1.mp3");
+const clickSound = new Audio("https://github.com/psunibean/psunibean.github.io/raw/refs/heads/main/Elim-1.ogg");
   
   
   
