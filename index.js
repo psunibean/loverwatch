@@ -72,7 +72,7 @@ const quizData = [
 	 {
       question: "Let's duo sometime? :3",
       options: ["No", "Yes", "No", "Yes"],
-      answer: ["No"]
+      answer: ["Yes"]
     }
     // Add more questions here...
   ];
@@ -156,22 +156,46 @@ const quizData = [
  function showResult() {
     let message = "";
     const percentage = (score / quizData.length) * 100;
-  
+    let endingSound; // Declare the sound variable
+
+
     if (percentage === 100) {
         message = "Ultimate cat toucher";
+        endingSound = new Audio("https://github.com/psunibean/psunibean.github.io/raw/refs/heads/main/Mercy-1.mp3");
+
     } else if (percentage >= 75) {
         message = "Oooh, You're almost as good as Kevlar!";
+        endingSound = new Audio("https://github.com/psunibean/psunibean.github.io/raw/refs/heads/main/Mercy-1.mp3");
+        
     } else if (percentage >= 50) {
         message = "I guess you're an average Overwatch player";
+        endingSound = new Audio("https://github.com/psunibean/psunibean.github.io/raw/refs/heads/main/Mercy-1.mp3");
+
     } else if (percentage >= 20) {
         message = "You kinda suck...";
-        sound = new Audio("https://github.com/psunibean/psunibean.github.io/raw/refs/heads/main/Ramattra-1.mp3");
+        endingSound = new Audio("https://github.com/psunibean/psunibean.github.io/raw/refs/heads/main/Mercy-1.mp3");
+
 	} else {
 		window.location.href = "ending.html"; // Redirect to another HTML file if score is low
         return;
 		
     }
   
+  // Trigger confetti effect when quiz completes
+  if (percentage > 50) {
+    confetti({
+      particleCount: 200,  // Number of confetti pieces
+      spread: 200,         // Spread angle
+      origin: { y: 0.6 },  // Confetti starts around the middle
+    });
+  }
+
+    // **Play the ending sound**
+    if (endingSound) {
+      endingSound.play();
+  }
+
+
     quiz.innerHTML = `
       <h3>QUIZ COMPLETE!</h3>
       <h5>Your score: ${score}/${quizData.length}</h5>
