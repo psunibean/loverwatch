@@ -17,12 +17,6 @@ const quizData = [
     },
 
     {
-      question: "Why are you running?",
-      options: ["Jet Boosters", "Halo Gliders", "Guardian Angel", "Super Jump"],
-      answer: ["Guardian Angel"]
-    },
-
-    {
       question: "Which type of chocolates did Mercy give Genji?",
       options: ["Pan Au", "Swiss", "French", "Cocoa"],
       answer: ["Swiss"]
@@ -35,15 +29,21 @@ const quizData = [
     },
 
     {
+      question: "Who is your most played Overwatch 2 hero?",
+      options: ["Lifeweaver", "Ana",  "Mercy", "Winton"],
+      answer: ["Lifeweaver"]
+    },
+
+    {
       question: "What is my main in Overwatch 2?",
       options: ["Hammond", "Soldier: 76", "Reinhardt", "Juno"],
       answer: ["Soldier: 76"]
     },
 
     {
-      question: "Who is your most played Overwatch 2 hero?",
-      options: ["Lifeweaver", "Ana",  "Mercy", "Winton"],
-      answer: ["Lifeweaver"]
+      question: "Why are you running?",
+      options: ["Jet Boosters", "Halo Gliders", "Guardian Angel", "Super Jump"],
+      answer: ["Guardian Angel"]
     },
 
     {
@@ -76,7 +76,7 @@ const quizData = [
   
   
   // Add audio for button click sound
-const clickSound = new Audio("https://github.com/psunibean/psunibean.github.io/blob/f1c34babc1b302695558b02d353e27f8e8a4935d/Elimination.mp3");
+const clickSound = new Audio("https://github.com/psunibean/psunibean.github.io/blob/d23e00087e008e5537836823b5f23ebe64c51955/Elimination.mp3");
   
   
   
