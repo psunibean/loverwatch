@@ -165,7 +165,7 @@ const clickSound = new Audio("https://quicksounds.com/uploads/tracks/1222744850_
       <h5>Your score: ${score}/${quizData.length}</h5>
       <h6>${message}</h6>
 	  
-	  <audio id="player" src="https://static.wikia.nocookie.net/overwatch_gamepedia/images/1/19/Mercy_-_You_should_really_get_that_looked_at.ogg/revision/latest?cb=20230914120120">
+	  <audio id="player" src="\sfx\Mercy_-_You_should_really_get_that_looked_at.ogg">
 	  </audio>
 	  
 	  <br>
