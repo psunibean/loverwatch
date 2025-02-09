@@ -17,9 +17,20 @@
 
 
 <!-- start of site -->
+<body onload="playSound()"></body>
 <center>
 
-  <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.5.1"></script>
+<script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.5.1"></script>
+
+<audio id="bg-sound" src="https://github.com/psunibean/psunibean.github.io/raw/refs/heads/main/Mercy-defeat.mp3"></audio>
+
+  <script>
+      function playSound() {
+          let audio = document.getElementById("bg-sound");
+          audio.play();
+      }
+  </script>
+
 
 <!-- STYLE HERE -->
 <style>
@@ -91,7 +102,7 @@ function delay (URL) {
 
 
 <!-- This is where the audio file is specified -->
-<audio id="player" src="https://github.com/psunibean/psunibean.github.io/raw/refs/heads/main/Mercy-1.mp3"></audio>
+<audio id="player" src="https://github.com/psunibean/psunibean.github.io/raw/refs/heads/main/sfx/Mercy-1.mp3"></audio>
 
 <!-- The hyperlink is specified via the javascript delay -->
 	<div class="click-me">

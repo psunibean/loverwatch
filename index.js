@@ -180,7 +180,12 @@ const quizData = [
         return;
 		
     }
-  
+
+    // **Play the ending sound**
+    if (endingSound) {
+      endingSound.play();
+  }
+
   // Trigger confetti effect when quiz completes
   if (percentage > 50) {
     confetti({
@@ -190,10 +195,6 @@ const quizData = [
     });
   }
 
-    // **Play the ending sound**
-    if (endingSound) {
-      endingSound.play();
-  }
 
 
     quiz.innerHTML = `
