@@ -1,0 +1,248 @@
+body {
+  background-image: url("https://bnetcmsus-a.akamaihd.net/cms/blog_header/q1/Q1SQORBIZAAA1675992280286.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+/*MAIN TITLE*/
+h1 { 
+ border-width: 2px;
+ border-style: solid;
+ border-color: white;
+ border-radius: 10px;
+ 
+ background-color: pink;
+ 
+ width: 500px;
+ height: 70px;
+ font-family: "Courgette", serif;
+ font-weight: 200px;
+ font-style: normal;
+ font-size: 170px;
+ 
+ display: inline;
+ padding-top: 5px;
+ padding-left: 90px;
+ padding-right: 90px;
+ 
+ }
+ 
+ /*title sub text*/
+ h2 {
+ border-width: 2px;
+ border-style: solid;
+ border-color: white;
+ border-radius: 10px;
+ 
+ background-color: pink;
+ 
+ width: 750px;
+ height: 50px;
+ font-family: "Courgette", serif;
+ font-style: normal;
+ font-size: 40px;
+ 
+ padding-top: 5px;
+
+ }
+
+/*QUIZ DONE*/
+h3 { 
+ border-width: 3px;
+ border-style: solid;
+ border-color: white;
+ border-radius: 10px;
+ 
+ background-color: pink;
+ 
+ width: 500px;
+ height: 50px;
+ font-family: "Kalam", serif;
+ font-weight: 200px;
+ font-style: normal;
+ font-size: 170px;
+ 
+ display: inline;
+ padding-top: 5px;
+ padding-left: 90px;
+ padding-right: 90px;
+ 
+ }
+
+/*question title*/
+h4 {
+ border-width: 3px;
+ border-style: solid;
+ border-color: white;
+ border-radius: 10px;
+ 
+ background-color: powderblue;
+ 
+ width: 750px;
+ height: 100px;
+ font-family: "Chewy", serif;
+ font-style: normal;
+ font-size: 80px;
+ 
+ }
+ 
+ /*question*/
+ h5 {
+ border-width: 3px;
+ border-style: solid;
+ border-color: white;
+ border-radius: 10px;
+ 
+ background-color: pink;
+ 
+ width: 670px;
+ height: 60px;
+ font-family: "Courgette", serif;
+ font-style: normal;
+ font-size: 40px;
+ 
+  margin: 15px;
+ padding-top: 5px;
+
+
+ }
+ 
+ /*Score message*/
+  h6 {
+ border-width: 3px;
+ border-style: solid;
+ border-color: white;
+ border-radius: 10px;
+ 
+ background-color: pink;
+ 
+ width: 900px;
+ height: 80px;
+ font-family: "Kalam", serif;
+ font-style: normal;
+ font-size: 40px;
+ 
+ margin: 0 auto;
+ padding-top: 20px;
+
+ }
+
+/*Clickable Button*/
+click-me {
+ width: 200px;
+ height: 100px;
+ border-width: 5px;
+ border-radius: 10px;
+ border-color: pink;
+ 
+ 
+ font-family: "Chewy", serif;
+ font-weight: 200px;
+ font-style: normal;
+ font-size: 40px;
+ 
+ margin: 0 auto;
+ display: inline; 
+ }
+ 
+ 
+ .click-me {
+ width: 200px;
+ height: 100px;
+ border-width: 5px;
+ border-radius: 10px;
+ border-color: pink;
+
+ font-family: "Chewy", serif;
+ font-weight: 200px;
+ font-style: normal;
+ font-size: 40px;
+ 
+ margin: 0 auto;
+ display: inline; 
+ }
+
+
+ .credits {
+ color: white;
+ font-family: "Chewy", serif;
+ }
+
+
+/*Qustions*/
+#question {
+ border-width: 2px;
+ border-style: solid;
+ border-color: white;
+ border-radius: 10px;
+ 
+ background-color: pink;
+ 
+ width: 1100px;
+ height: 80px;
+ font-family: "Courgette", serif;
+ font-style: normal;
+ font-size: 40px;
+ 
+ padding-top: 20px;
+
+}
+
+/*Questions Counter*/
+#question-counter {
+ border-width: 2px;
+ border-style: solid;
+ border-color: white;
+ border-radius: 10px;
+ 
+ background-color: pink;
+ 
+ width: 270px;
+ height: 50px;
+ font-family: "Courgette", serif;
+ font-style: normal;
+ font-size: 30px;
+ 
+ padding-top: 10px;
+
+}
+
+
+/*Clickable Answers*/
+button {
+grid-template-columns: repeat(2, 1fr);
+  display: inline-block;
+  padding: 10px 20px;
+
+  cursor: pointer;
+  
+   width: 225px;
+ height: 100px;
+ border-width: 5px;
+ border-radius: 10px;
+ border-color: pink;
+ 
+ 
+ font-family: "Chewy", serif;
+ font-weight: 100px;
+ font-style: normal;
+ font-size: 30px;
+ 
+ margin: 0 auto;
+}
+
+button:hover {
+  background-color: #8f8d8d;
+}
+
+
+</style>
+
+
+
