@@ -76,7 +76,7 @@ const quizData = [
   
   
   // Add audio for button click sound
-const clickSound = new Audio("https://github.com/psunibean/psunibean.github.io/blob/d23e00087e008e5537836823b5f23ebe64c51955/Elimination.mp3");
+const clickSound = new Audio("https://github.com/psunibean/psunibean.github.io/raw/refs/heads/main/Elimination-1.mp3");
   
   
   
@@ -165,7 +165,7 @@ const clickSound = new Audio("https://github.com/psunibean/psunibean.github.io/b
       <h5>Your score: ${score}/${quizData.length}</h5>
       <h6>${message}</h6>
 	  
-	  <audio id="player" src="https://github.com/psunibean/psunibean.github.io/blob/f1c34babc1b302695558b02d353e27f8e8a4935d/Mercy.ogg">
+	  <audio id="player" src="https://github.com/psunibean/psunibean.github.io/raw/refs/heads/main/Mercy-1.ogg">
 	  </audio>
 	  
 	  <br>
