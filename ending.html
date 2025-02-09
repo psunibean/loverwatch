@@ -22,11 +22,12 @@
 
 <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.5.1"></script>
 
-<audio id="bg-sound" src="https://github.com/psunibean/psunibean.github.io/raw/refs/heads/main/Mercy-defeat.mp3"></audio>
+<audio id="bg-sound" src="https://github.com/psunibean/psunibean.github.io/raw/refs/heads/main/Mercy-defeat.mp3" autoplay muted></audio>
 
   <script>
       function playSound() {
           let audio = document.getElementById("bg-sound");
+          audio.muted = false;
           audio.play();
       }
   </script>
