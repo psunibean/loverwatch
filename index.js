@@ -171,7 +171,7 @@ const clickSound = new Audio("https://quicksounds.com/uploads/tracks/1222744850_
 	  <br>
 	  
 	  <div class="click-me">
-		<a href="javascript:delay2('LOVERWATCH.html')" onclick="document.getElementById('player').play()" style="text-decoration:none">
+		<a href="javascript:delay2('index.html')" onclick="document.getElementById('player').play()" style="text-decoration:none">
 			<button class="click-me" > Restart? </button>
 		</a>
 	</div>
