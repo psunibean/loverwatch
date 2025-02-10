@@ -1,0 +1,29 @@
+Older Patch Notes:
+- Created buttons to reveal messages
+- Overhaul to quiz game mode
+- Created more questions
+- Bug fixes
+- Changed the ending to show a quiz score and rating
+- Bug fixes
+- Added multiple ending screens, put the original ending for very bad players...
+- Added voicelines to play when you finish the quiz
+- Updated voicelines
+- Bug fixes
+- Added secret button
+- Added another secret button
+- Bug fixes
+
+
+Patch Notes 100225-0214:
+- Bug fixes
+
+Patch Notes 11/2/25-1200:
+- Changed beginning of program
+- Added new button to new beginning (game is now a hidden feature)
+- Rerouted new files from game
+- Game will now only restart to game and not new beginning
+- Bug fixes
+
+- Unfortunately due to a change in circumstances, the game is no longer being shown to the original recipient
+- However! The game will still be shared to anyone that wants to play it!
+- Happy Valentine's day... *sigh*
