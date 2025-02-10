@@ -1,0 +1,88 @@
+#hiddenButton2 {
+    display: block;
+    background: transparent;
+    color: transparent;
+ 
+     border: hidden;/* Hides the button */
+ 
+    position: absolute;
+    width: 90px; /* Set button size */
+    height: 90px;
+    cursor: pointer;
+    top: 50%;
+    left: 50%;
+    transform: translate(0%, -100%);
+    z-index: 10; /* Ensure it's clickable */
+     }
+
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    position: relative;
+    background-color: pink; /* Set background color to pink */
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center items horizontally */
+    text-align: center; /* Center text inside the container */
+}
+
+img {
+    max-width: 100%; /* Ensure the image is responsive */
+    height: auto; /* Maintain aspect ratio */
+    margin-bottom: 20px; /* Space below the image */
+}
+
+.buttons {
+    display: inline-flex;
+    flex-direction: column; /* Stack buttons vertically */
+    align-items: center; /* Center buttons horizontally */
+    gap: 20px; /* Increase gap between buttons */
+    margin-top: 20px;
+
+}
+
+button {
+    display: inline;
+    padding: 0px 0px; /* Adjust padding for size */
+    font-size: 32px; /* Adjust font size */
+    font-family: "Chewy", serif;
+
+    color: rgb(255, 255, 255);
+
+    cursor: pointer;
+    border-color: rgb(255, 235, 235);
+    background: rgb(255, 164, 164);
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 8px; /* Slightly round the corners */
+    transition: transform 0.1s ease-in-out;
+    width: 100px; /* Set a minimum width for consistency */
+    height: 50px; /* Set a minimum height for larger buttons */
+
+    transform: translate(-60%, 0%);
+}
+
+#no {
+    transform: translate(-40%, 0%);
+    position: absolute; /* Allows the button to move freely */
+}
+
+
+.sweet {
+    color: rgb(255, 128, 187);;
+
+    font-size: 35px;
+    font-family: "Chewy", serif;
+   
+     margin: 0 auto;
+   
+    }

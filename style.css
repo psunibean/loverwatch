@@ -16,7 +16,6 @@
    z-index: 10; /* Ensure it's clickable */
     }
 
-
 body {
   background-image: url("https://bnetcmsus-a.akamaihd.net/cms/blog_header/q1/Q1SQORBIZAAA1675992280286.png");
   background-repeat: no-repeat;
@@ -150,7 +149,8 @@ h4 {
  
  margin: 0 auto;
  padding-top: 20px;
-
+ text-align: center;
+ justify-content: center;
  }
 
 /*Clickable Button*/
@@ -205,7 +205,7 @@ click-me {
   }
 
 
-/*Qustions*/
+/*Questions*/
 #question {
  border-width: 2px;
  border-style: solid;

@@ -1,98 +1,55 @@
-<!doctype html>
-
-<html lang="en_US" height="100%">
-<title>LOVERWATCH</title>
+<!DOCTYPE html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yes/No Buttons</title>
+    <link rel="stylesheet" href="Qstyle.css">
 
-<link rel="stylesheet" href="style.css">
-
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Chewy&family=Courgette&family=Gluten:wght@100..900&family=Kalam:wght@300;400;700&display=swap" rel="stylesheet">
-
-<meta name="viewport" content="width=device-width, initial-scale=1">
-
-<!-- Browser Icon -->
-<link rel="icon" href="https://cdn-icons-png.flaticon.com/512/8801/8801442.png">
-
-<script src="index.js">
-function delay (URL) {
-    setTimeout( function() { window.location = URL }, 4500 );
-}
-</script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chewy&family=Courgette&family=Gluten:wght@100..900&family=Kalam:wght@300;400;700&display=swap" rel="stylesheet">    
 
 
-<!-- start of site -->
-<center>
-
-<br>
-
-<h1> LOVERWATCH </h1>
-<h2 class="heading2"> Payload delivered... to your heart </h2>
-
-
-</center>
-
-<br>
-
-<marquee behavior="alternate" direction="left" scrollamount="19">
-<img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/772ec4fe-5aa1-49f4-9e53-adb5ce20016a/dclhjv9-cc511330-4a7a-4b8d-8fc8-85c6cfd3677e.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzc3MmVjNGZlLTVhYTEtNDlmNC05ZTUzLWFkYjVjZTIwMDE2YVwvZGNsaGp2OS1jYzUxMTMzMC00YTdhLTRiOGQtOGZjOC04NWM2Y2ZkMzY3N2UucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.Txkpd8MOFZwLTnoP451yfq3f21m2Lm_5K5QJIbeaWfk" width="105" height="100" alt="Mercy uwu">
-</marquee>
-
-<marquee behavior="alternate" direction="right" scrollamount="20">
-<img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/772ec4fe-5aa1-49f4-9e53-adb5ce20016a/dclhjv9-cc511330-4a7a-4b8d-8fc8-85c6cfd3677e.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzc3MmVjNGZlLTVhYTEtNDlmNC05ZTUzLWFkYjVjZTIwMDE2YVwvZGNsaGp2OS1jYzUxMTMzMC00YTdhLTRiOGQtOGZjOC04NWM2Y2ZkMzY3N2UucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.Txkpd8MOFZwLTnoP451yfq3f21m2Lm_5K5QJIbeaWfk" width="105" height="100" alt="Mercy uwu">
-</marquee>
-
-<marquee behavior="alternate" direction="left" scrollamount="25">
-<img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/772ec4fe-5aa1-49f4-9e53-adb5ce20016a/dclhjv9-cc511330-4a7a-4b8d-8fc8-85c6cfd3677e.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzc3MmVjNGZlLTVhYTEtNDlmNC05ZTUzLWFkYjVjZTIwMDE2YVwvZGNsaGp2OS1jYzUxMTMzMC00YTdhLTRiOGQtOGZjOC04NWM2Y2ZkMzY3N2UucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.Txkpd8MOFZwLTnoP451yfq3f21m2Lm_5K5QJIbeaWfk" width="105" height="100" alt="Mercy uwu">
-</marquee>
-
-
-<center>
-
-	<script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.5.1"></script>
-
-<br>
-
-   <!-- Hidden button -->
-   <button id="hiddenButton" onclick="redirectToYouTube()"></button>
-
-
-<!-- This is where the audio file is specified -->
-<audio id="player" src="https://github.com/psunibean/psunibean.github.io/raw/refs/heads/main/sfx/Ramattra-1.mp3"></audio>
-
-<!-- The hyperlink is specified via the javascript delay -->
-	<div class="click-me">
-<a href="javascript:delay('q1.html')" onclick="document.getElementById('player').play()" style="text-decoration:none">
-	<button class="click-me" >
-	PLAY
-</button>
-</a>
-
-</div>
-
-
-<marquee behavior="alternate" direction="right" scrollamount="27">
-<img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/772ec4fe-5aa1-49f4-9e53-adb5ce20016a/dclhjv9-cc511330-4a7a-4b8d-8fc8-85c6cfd3677e.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzc3MmVjNGZlLTVhYTEtNDlmNC05ZTUzLWFkYjVjZTIwMDE2YVwvZGNsaGp2OS1jYzUxMTMzMC00YTdhLTRiOGQtOGZjOC04NWM2Y2ZkMzY3N2UucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.Txkpd8MOFZwLTnoP451yfq3f21m2Lm_5K5QJIbeaWfk" width="105" height="100" alt="Mercy uwu">
-</marquee>
-
-<marquee behavior="alternate" direction="left" scrollamount="29">
-<img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/772ec4fe-5aa1-49f4-9e53-adb5ce20016a/dclhjv9-cc511330-4a7a-4b8d-8fc8-85c6cfd3677e.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzc3MmVjNGZlLTVhYTEtNDlmNC05ZTUzLWFkYjVjZTIwMDE2YVwvZGNsaGp2OS1jYzUxMTMzMC00YTdhLTRiOGQtOGZjOC04NWM2Y2ZkMzY3N2UucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.Txkpd8MOFZwLTnoP451yfq3f21m2Lm_5K5QJIbeaWfk" width="105" height="100" alt="Mercy uwu">
-</marquee>
-
-<marquee behavior="alternate" direction="right" scrollamount="33">
-<img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/772ec4fe-5aa1-49f4-9e53-adb5ce20016a/dclhjv9-cc511330-4a7a-4b8d-8fc8-85c6cfd3677e.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzc3MmVjNGZlLTVhYTEtNDlmNC05ZTUzLWFkYjVjZTIwMDE2YVwvZGNsaGp2OS1jYzUxMTMzMC00YTdhLTRiOGQtOGZjOC04NWM2Y2ZkMzY3N2UucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.Txkpd8MOFZwLTnoP451yfq3f21m2Lm_5K5QJIbeaWfk" width="105" height="100" alt="Mercy uwu">
-</marquee>
-
-<br>
-<br>
-<br>
-
-<p class="credits">A 2025 Valentine Game</p>
-<p class="credits2">Contains 11 questions, 5 endings, 1 secret button and a key to my heart &#60;3</p>
-
-</center>
-</body>
 </head>
+<body style="background-color: rgb(255, 201, 210);"> <!-- Set background color to pink -->
+    <div class="container">
+        <center>
 
+            <!-- Cat Hugs GIF -->
+            <img src="https://media1.tenor.com/m/HSxxt1scQXYAAAAC/cat-hugs.gif" style="width: 200px; margin-bottom: 20px;">
+            
+<style>
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center items horizontally */
+    text-align: center; /* Center text inside the container */
+}
+.buttons {
+    display: inline-flexbox;
+    justify-content: center; /* Center buttons horizontally */
+    gap: 30px; /* Increase gap between buttons */
+    margin-top: 20px;
+}
+
+</style>
+
+   <!-- Hidden button 2! -->
+   <button id="hiddenButton2" onclick="redirectToGame()"></button>
+
+            <h1 class="sweet">Will you be my Valentine???</h1>
+            <div class="button">
+
+				<br>
+
+                <button id="yes">Yes</button>
+                <button id="no">No</button>
+            </div>
+
+        </center>
+    </div>
+    <script src="Qscript.js"></script>
+</body>
 </html>

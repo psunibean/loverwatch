@@ -1,7 +1,7 @@
 
 if (!localStorage.getItem("visited")) {
   localStorage.setItem("visited", "true"); // Set a flag in local storage
-  window.location.href = "index.html"; // Redirect to index.html
+  window.location.href = "game.html"; // Redirect to game.html
 }
 
       // JavaScript to trigger the redirect
@@ -9,6 +9,7 @@ if (!localStorage.getItem("visited")) {
         window.location.href = "https://www.youtube.com/watch?v=bzLaL0SVwwI"; // Replace with your YouTube link
     }
 
+    
 const quizData = [
     {
       question: "What day is Valentines?",
@@ -208,7 +209,7 @@ const quizData = [
 	  <br>
 	  
 	  <div class="click-me">
-		<a href="javascript:delay2('index.html')" onclick="document.getElementById('player').play()" style="text-decoration:none">
+		<a href="javascript:delay2('game.html')" onclick="document.getElementById('player').play()" style="text-decoration:none">
 			<button class="click-me" > Restart? </button>
 		</a>
 	</div>
