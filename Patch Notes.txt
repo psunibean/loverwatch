@@ -17,7 +17,7 @@ Older Patch Notes:
 Patch Notes 100225-0214:
 - Bug fixes
 
-Patch Notes 11/2/25-1200:
+Patch Notes 110225-1200:
 - Changed beginning of program
 - Added new button to new beginning (game is now a hidden feature)
 - Rerouted new files from game
@@ -27,3 +27,6 @@ Patch Notes 11/2/25-1200:
 - Unfortunately due to a change in circumstances, the game is no longer being shown to the original recipient
 - However! The game will still be shared to anyone that wants to play it!
 - Happy Valentine's day... *sigh*
+
+Patch Notes 110225-1213:
+- Updated files
