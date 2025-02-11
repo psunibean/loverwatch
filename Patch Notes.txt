@@ -34,7 +34,7 @@
 - Updated files
 
 
-*Patch Notes 110225-1213:
+*Patch Notes 110225-2151:
 - Added new ending
 - Fixed 'No" box to move in any direction instead of left only
 - Button now moves to a random location instead of running from the mouse
