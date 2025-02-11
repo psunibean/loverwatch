@@ -43,3 +43,4 @@
 *Patch Notes 110225-2159:
 - HOTFIX
 - Fixed the quiz score not showing
+- Added new browser icon
