@@ -18,11 +18,7 @@
 - Bug fixes
 
 
-<<<<<<< HEAD
 *Patch Notes 110225-1200:
-=======
-Patch Notes 110225-1200:
->>>>>>> 10e92927ebf54c5e406a527e56f7f28c2270104d
 - Changed beginning of program
 - Added new button to new beginning (game is now a hidden feature)
 - Rerouted new files from game
@@ -34,7 +30,6 @@ Patch Notes 110225-1200:
 - Happy Valentine's day... *sigh*
 
 
-<<<<<<< HEAD
 *Patch Notes 110225-1213:
 - Updated files
 
@@ -44,7 +39,7 @@ Patch Notes 110225-1200:
 - Fixed 'No" box to move in any direction instead of left only
 - Button now moves to a random location instead of running from the mouse
 - Button now teleports if you click it (sorry :>)
-=======
-Patch Notes 110225-1213:
-- Updated files
->>>>>>> 10e92927ebf54c5e406a527e56f7f28c2270104d
+
+*Patch Notes 110225-2159:
+- HOTFIX
+- Fixed the quiz score not showing

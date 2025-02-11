@@ -192,7 +192,7 @@ const quizData = [
   }
 
   // Trigger confetti effect when quiz completes
-  if (percentage > 50) {
+  if (total > 5) {
     confetti({
       particleCount: 200,  // Number of confetti pieces
       spread: 200,         // Spread angle
