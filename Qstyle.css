@@ -3,15 +3,15 @@
     background: transparent;
     color: transparent;
  
-     border: hidden;/* Hides the button */
+    border: hidden;/* Hides the button */
  
     position: absolute;
-    width: 90px; /* Set button size */
-    height: 90px;
+    width: 70px; /* Set button size */
+    height: 70px;
     cursor: pointer;
     top: 50%;
     left: 50%;
-    transform: translate(0%, -100%);
+    transform: translate(25%, -130%);
     z-index: 10; /* Ensure it's clickable */
      }
 

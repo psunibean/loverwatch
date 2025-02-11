@@ -156,23 +156,27 @@ const quizData = [
   
  function showResult() {
     let message = "";
-    const percentage = (score / quizData.length) * 100;
+    const total = (score);
     let endingSound; // Declare the sound variable
 
 
-    if (percentage === 100) {
+    if (total === 11) {
         message = "Ultimate cat toucher";
         endingSound = new Audio("https://github.com/psunibean/psunibean.github.io/raw/refs/heads/main/sfx/Catto.mp3");
 
-    } else if (percentage >= 75) {
+    } else if (total >= 10) {
+       message = "Winston.";
+       endingSound = new Audio("https://static.wikia.nocookie.net/overwatch_gamepedia/images/1/16/Winston_-_Winston.ogg/revision/latest?cb=20230915030155");
+
+    } else if (total >= 8) {
         message = "OMG, CARRY ME PLEASE? :O";
         endingSound = new Audio("https://github.com/psunibean/psunibean.github.io/raw/refs/heads/main/sfx/Victory.mp3");
         
-    } else if (percentage >= 50) {
+    } else if (total >= 5) {
         message = "I guess you're an average Overwatch player";
         endingSound = new Audio("https://github.com/psunibean/psunibean.github.io/raw/refs/heads/main/sfx/LW-hello.mp3");
 
-    } else if (percentage >= 20) {
+    } else if (total >= 2) {
         message = "You kinda suck...";
         endingSound = new Audio("https://github.com/psunibean/psunibean.github.io/raw/refs/heads/main/sfx/Genji-1.mp3");
 
