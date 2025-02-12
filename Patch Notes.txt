@@ -40,7 +40,13 @@
 - Button now moves to a random location instead of running from the mouse
 - Button now teleports if you click it (sorry :>)
 
+
 *Patch Notes 110225-2159:
 - HOTFIX
 - Fixed the quiz score not showing
 - Added new browser icon
+
+
+*Patch Notes 120225-0535:
+- Changed the success page name
+- Minor bug fixes
